@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school"
+    tools:context="com.lightgo.schooldaily.ActActivity.ManageActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_manage_manue"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/id_Back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <!-- android:clickable="false" 是为了防止ImageButton截取了触摸事件 ，这里事件要给它的上一级linearlayout-->
+            <ImageButton
+                android:id="@+id/id_BackImg"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:clickable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/backimg1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_Knowing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_KnowingImg"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:clickable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/knowingimg1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查寝" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_Callnames"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_CallnamesImg"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:clickable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/callnameimg1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点名" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_Activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_ActivityImg"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:clickable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/activityimg1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="活动" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

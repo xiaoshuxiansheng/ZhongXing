@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/floralwhite"
+        android:layout_below="@+id/floralwhite"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/zte"/>
+            <TextView
+            android:id="@+id/mNAme"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/mTime"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@+id/lin1"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/messagestyle"
+            android:layout_marginTop="31dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical"
+            android:id="@+id/lin1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="22dp"
+                android:id="@+id/mtitle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tv"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

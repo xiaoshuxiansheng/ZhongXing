@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_alignParentBottom="true"
+    android:background="#33000000"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/xiacaidang"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#99FFFFFF"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/id_tab_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <!-- android:clickable="false" 是为了防止ImageButton截取了触摸事件 ，这里事件要给它的上一级linearlayout-->
+            <ImageButton
+                android:id="@+id/id_tab_frd_img"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:clickable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/zzx2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_nagivation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/id_tab_home_img"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:clickable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/banji1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查寝" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_frd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/id_tab_nagivation_img"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:clickable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/kaoqing2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点名" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_settings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_settings_img"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:clickable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/huodong1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="活动" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

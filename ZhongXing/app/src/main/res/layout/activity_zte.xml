@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lightgo.schooldaily.ZTEActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="中兴通讯"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="        中兴通讯是全球领先的综合通信解决方案提供商。公司通过为全球160多个国家和地区的电信运营商和企业网客户提供创新技术与产品解决方案，让全世界用户享有语音、数据、多媒体、无线宽带等全方位沟通。公司成立于1985年，在香港和深圳两地上市，是中国最大的通信设备上市公司。" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="        中兴通讯拥有通信业界最完整的、端到端的产品线和融合解决方案，通过全系列的无线、有线、业务、终端产品和专业通信服务，灵活满足全球不同运营商和企业网客户的差异化需求以及快速创新的追求。2014年中兴通讯实现营业收入814.7亿元人民币，净利润26.3亿元人民币，同比增长94%。目前，中兴通讯已全面服务于全球主流运营商及企业网客户，智能终端发货量位居美国前四，并被誉为“智慧城市的标杆企业”。
+　　中兴通讯坚持以持续技术创新为客户不断创造价值。公司在美国、法国、瑞典、印度、中国等地共设有18个全球研发机构，近3万名国内外研发人员专注于行业技术创新；PCT专利申请量近5年均居全球前三，2011、2012年PCT蝉联全球前一。公司依托分布于全球的107个分支机构，凭借不断增强的创新能力、突出的灵活定制能力、日趋完善的交付能力赢得全球客户的信任与合作。
+　　中兴通讯为联合国全球契约组织成员，坚持在全球范围内贯彻可持续发展理念，实现社会、环境及利益相关者的和谐共生。我们运用通信技术帮助不同地区的人们享有平等的通信自由；我们将“创新、融合、绿色”理念贯穿到整个产品生命周期，以及研发、生产、物流、客户服务等全流程，为实现全球性降低能耗和二氧化碳排放不懈努力。我们还在全球范围内开展社区公益和救助行动，参加了印尼海啸、海地及汶川地震等重大自然灾害救助，并成立了中国规模最大的“关爱儿童专项基金”。
+　　未来，中兴通讯将继续致力于引领全球通信产业的发展，应对全球通信领域更趋日新月异的挑战。" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ztetx1" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

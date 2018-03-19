@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lightgo.schooldaily">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/zte"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="UpEebuH0GGpUNA1WdAjj0R1TesY68TT5" />
+
+        <activity android:name=".ActActivity.ManageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lightgo.schooldaily.MainActivity"></activity>
+        <activity android:name="com.lightgo.schooldaily.IndexActivity" />
+        <activity android:name="com.lightgo.schooldaily.XueyuanActivity"
+                   android:label="学院简介" />
+        <activity android:name="com.lightgo.schooldaily.ZTEActivity"
+            android:label="中兴通讯" />
+        <activity android:name="com.lightgo.schooldaily.TuanduiActivity"
+            android:label="师资团队" />
+        <activity android:name="com.lightgo.schooldaily.ElegantActivity"
+            android:label="学院风采" />
+        <activity android:name="com.lightgo.schooldaily.ZhuanxingActivity"
+            android:label="转型发展" />
+        <activity android:name="com.lightgo.schooldaily.NagivationActivity" />
+        <activity android:name="com.lightgo.schooldaily.HouseActivity" />
+        <activity android:name="com.lightgo.schooldaily.labvedioone" />
+        <activity android:name="com.lightgo.schooldaily.JidiActivity" />
+        <activity android:name="com.lightgo.schooldaily.ShiyanshiActivity" />
+        <activity android:name="com.lightgo.schooldaily.StudentJar.HuodongInformation" />
+        <activity android:name="com.lightgo.schooldaily.StudentJar.JiangliInformation" />
+        <activity android:name="com.lightgo.schooldaily.StudentJar.ChufaInformation" />
+        <activity android:name="com.lightgo.schooldaily.StudentJar.Gexing" />
+        <activity android:name="com.lightgo.schooldaily.UserMessage.LoginActivity" />
+        <activity android:name="com.lightgo.schooldaily.UserMessage.AdminActivity" />
+        <activity android:name="com.lightgo.schooldaily.HtmlWebView" />
+        <activity android:name="com.lightgo.schooldaily.UserMessage.StudentActivity" />
+        <activity android:name="com.lightgo.schooldaily.CSWebActivity" />
+        <activity android:name="com.lightgo.schooldaily.TWebActivity" />
+        <activity android:name="com.lightgo.schooldaily.StudentJar.BaseInformation" />
+        <activity android:name="com.lightgo.schooldaily.CollegeIntroduce.IntroduceActvity" />
+        <activity android:name="com.lightgo.schooldaily.CollegeIntroduce.ProcessActivity" />
+        <activity android:name="com.lightgo.schooldaily.CollegeIntroduce.MessageActivity" />
+        <activity android:name="com.lightgo.schooldaily.UserMessage.BslcActivity" />
+        <activity android:name="com.lightgo.schooldaily.CheckActivity.DailyCheckActivity" />
+        <activity android:name="com.lightgo.schooldaily.CheckActivity.DCheckActivity" />
+        <activity android:name="com.lightgo.schooldaily.CheckActivity.DSelectActivity"/>
+        <activity android:name="com.lightgo.schooldaily.AdminUser.ClassRankActivity" />
+        <activity android:name="com.lightgo.schooldaily.AdminUser.TodayCheckActivity" />
+        <activity android:name="com.lightgo.schooldaily.AdminUser.StudentInfoActivity" />
+        <activity android:name="com.lightgo.schooldaily.AdminUser.ToBeProcessActivity" />
+        <activity android:name="com.lightgo.schooldaily.StudyCommunity.BrowsList"/>
+        <activity android:name="com.lightgo.schooldaily.StudyCommunity.WriteBBS"/>
+        <activity android:name="com.lightgo.schooldaily.StudyCommunity.BrowsContent"/>
+        <activity android:name="com.lightgo.schooldaily.StudyCommunity.WriteComment"/>
+        <activity android:name="com.lightgo.schooldaily.Inweb"/>
+        <activity android:name="me.iwf.photopicker.PhotoPickerActivity" />
+        <activity android:name="me.iwf.photopicker.PhotoPagerActivity"/>
+        <activity android:name="com.lightgo.schooldaily.ActActivity.ActShowActivity"/>
+        <activity android:name="com.lightgo.schooldaily.ActActivity.AddActivity" />
+        <activity android:name="com.lightgo.schooldaily.ActActivity.SignInActivity" />
+        <activity android:name="com.lightgo.schooldaily.ActActivity.StuInfoActivity" />
+        <activity android:name="com.lightgo.schooldaily.ActActivity.EditActivity" />
+        <activity android:name="com.lightgo.schooldaily.ActActivity.ChooseActivity"/>
+        <activity android:name="com.lightgo.schooldaily.HostelCheck.HostelActivity"/>
+        <activity android:name="com.lightgo.schooldaily.HostelCheck.HCheckActivity"/>
+        <activity android:name="com.lightgo.schooldaily.HostelCheck.HSelectActivity"/>
+        <activity android:name="com.lightgo.schooldaily.HostelCheck.HCheck1Activity"/>
+    </application>
+
+</manifest>

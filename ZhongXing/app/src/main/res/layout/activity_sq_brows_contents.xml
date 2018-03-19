@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.lightgo.schooldaily.StudyCommunity.BrowsContent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_new"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#17a3f2"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+            android:layout_marginBottom="45dp"
+            android:layout_below="@+id/top"
+            android:id="@+id/center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/content"
+                    android:layout_below="@+id/backgroud"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="#131313"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/title"
+                            android:layout_marginTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/author"
+                            android:textColor="#606060"
+                            android:layout_marginTop="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_below="@+id/title" />
+                        <TextView
+                            android:id="@+id/time"
+                            android:textColor="#606060"
+                            android:layout_marginTop="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_below="@+id/author" />
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@+id/post_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </LinearLayout>
+                    <TextView
+                        android:textColor="#131313"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="全部评论"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp">
+                        <LinearLayout
+                            android:background="#eb4e61"
+                            android:layout_width="100dp"
+                            android:layout_height="1dp"></LinearLayout>
+                        <LinearLayout
+                            android:background="#dcdcdc"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"></LinearLayout>
+                    </LinearLayout>
+                    <com.lightgo.schooldaily.StudyCommunity.MyListView
+                        android:id="@+id/lstv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </com.lightgo.schooldaily.StudyCommunity.MyListView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:background="#f2f2f2"
+            android:id="@+id/bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:id="@+id/writeComment"
+                android:layout_marginLeft="18dp"
+                android:layout_centerVertical="true"
+                android:text="说说你的看法..."
+                android:textColor="#9b9b9b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+
+

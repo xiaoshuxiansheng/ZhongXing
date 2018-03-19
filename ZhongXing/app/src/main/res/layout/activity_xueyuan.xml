@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lightgo.schooldaily.XueyuanActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="学院介绍"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="       中兴通讯信息工程学院是根据国家教育部促进地方本科院校向应用技术大学转型发展的相关文件精神，由衡阳师范学院与中兴通讯股份有限公司通过校企合作方式共建的“中兴通讯ICT（Information Communication Technology，简称ICT，即信息通信技术）产教融合创新基地”，经单位申报、省教育厅推荐和教育部组织专家评审，衡阳师范学院成为全国首批30所ICT产教融合创新基地的合作院校之一。"
+                />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/jieshao1"
+                />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="        针对ICT行业产业人才需求，校企双方通过开展资源整合，共同投资1500多万建设光通信实训室、移动通信实训室、移动仿真与网络优化实训室、承载与安全实训室、云计算实训室、视讯业务实训室等6间国际水准的高端实训室。" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="        学院与企业共建本科专业，成立了由众多知名软件企业参加的专业建设指导委员会，共同制定人才培养方案，共同参与人才培养过程。双方合作的核心专业为：计算机科学与技术、电子信息工程。两个专业的专业核心课程都由中兴通讯具有多年大型项目经验的高级工程师或“双师双能型”教师实地授课。学院采取仿真企业式管理和教学过程，提前让学生进行职场演练，提前适应行业规范要求，项目实景教学演练，真实展现就业岗位要求。" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/jieshao2"
+                android:scaleType="centerInside"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="        中兴通讯信息工程学院采用“3+1”（前三年在学校学习和实训，最后一年在中兴通讯或合作企业实习）准职业人培养模式，以培养学生ICT行业系统集成所需的技术能力为主线，培养适应行业工程设计、建设、运营维护以及应用开发等岗位的高端工程应用型人才。"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="       中兴通讯信息工程学院面向ICT行业培养人才，发展潜力巨大，学生就业前景广阔。就业主要面向中兴、三星、IBM、微软、腾讯、百度、诺西、中国电信、中国联通、中国移动、海信、大唐电信、烽火、中通服、联想、万科、用友、万达集团、新浪、万科、珠海世纪鼎利等ICT行业企业，涵盖产品设计开发、工程项目实施、技术支持维护、市场商务运营等各种岗位。" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+              android:text="       学院将持续致力于内涵和特色建设，努力提高人才培养层次和质量，不断锤炼办学特色和人才培养特色，努力把学院建设成为亲产业特色显著的、具有较强办学优势和较高办学水平的应用型ICT人才培养基地。"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

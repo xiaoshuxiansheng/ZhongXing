@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/jdPic"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/jdbg" />
+
+            <RelativeLayout
+                android:id="@+id/jdone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jdPic"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/tongxun"
+                    android:layout_width="100dp"
+                    android:layout_height="78dp"
+                    android:background="@drawable/guang" />
+
+                <TextView
+                    android:id="@+id/jd_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center"
+                    android:text="光通讯实验室"
+                    android:textColor="#190000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jd_one"
+                    android:layout_marginLeft="100dp"
+                    android:text="200m" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/vgtx"
+                    android:background="@drawable/vstaricon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/jdtwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/jdone"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/YiDongTongxin"
+                    android:layout_width="100dp"
+                    android:layout_height="78dp"
+                    android:background="@drawable/yidong" />
+
+                <TextView
+                    android:id="@+id/jd_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center"
+                    android:text="移动通信实验室"
+                    android:textColor="#190000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jd_two"
+                    android:layout_marginLeft="100dp"
+                    android:text="200m" />
+
+                <ImageButton
+                    android:id="@+id/vydtx"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/vstaricon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/jdthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jdtwo"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/Chengzaiyuanquan"
+                    android:layout_width="100dp"
+                    android:layout_height="78dp"
+                    android:background="@drawable/czyaq" />
+
+                <TextView
+                    android:id="@+id/jd_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center"
+                    android:text="承载与安全实验室"
+                    android:textColor="#190000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jd_three"
+                    android:layout_marginLeft="100dp"
+                    android:text="200m" />
+
+                <ImageButton
+                    android:id="@+id/vczyaq"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/vstaricon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/jdfour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jdthree"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/YiDongFangzheng"
+                    android:layout_width="100dp"
+                    android:layout_height="78dp"
+                    android:background="@drawable/fangzhen" />
+
+                <TextView
+                    android:id="@+id/jd_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center"
+                    android:text="移动与仿真实验室"
+                    android:textColor="#190000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jd_four"
+                    android:layout_marginLeft="100dp"
+                    android:text="200m" />
+
+                <ImageButton
+                    android:id="@+id/vydyfz"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/vstaricon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jdfour"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/yunjisuan"
+                    android:layout_width="100dp"
+                    android:layout_height="78dp"
+                    android:background="@drawable/yun" />
+
+                <TextView
+                    android:id="@+id/jd_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center"
+                    android:text="云计算实训实验室"
+                    android:textColor="#190000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jd_five"
+                    android:layout_marginLeft="100dp"
+                    android:text="200m" />
+
+                <ImageButton
+                    android:id="@+id/vyjs"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/vstaricon" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/shixunyewu"
+                    android:layout_width="100dp"
+                    android:layout_height="78dp"
+                    android:background="@drawable/shixun" />
+
+                <TextView
+                    android:id="@+id/jd_six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center"
+                    android:text="视讯业务实验室"
+                    android:textColor="#190000"
+                    android:textSize="20dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jd_six"
+                    android:layout_marginLeft="100dp"
+                    android:text="200m" />
+
+                <ImageButton
+                    android:id="@+id/vsxyw"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/vstaricon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout4"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/Gongcheng"
+                    android:layout_width="100dp"
+                    android:layout_height="78dp"
+                    android:background="@drawable/gc" />
+
+                <TextView
+                    android:id="@+id/jd_seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:gravity="center"
+                    android:text="工程施工实验室"
+                    android:textColor="#190000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jd_seven"
+                    android:layout_marginLeft="100dp"
+                    android:text="200m" />
+
+                <ImageButton
+                    android:id="@+id/vgcsg"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/vstaricon" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

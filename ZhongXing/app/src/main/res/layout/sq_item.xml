@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp">
+        <com.lightgo.schooldaily.StudentJar.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ey"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="qq_32874903"
+                android:layout_toRightOf="@+id/img"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/username"
+                android:text="8/6 12:03"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:text="SQL连接问题"
+        android:textColor="#000020"
+        android:layout_below="@+id/relative"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:lineSpacingExtra="3dp"
+        android:maxLines="2"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textname"
+        android:text="查找网上很久了，实在不知道怎么办！！望大虾出现指导一二 在与SQL连接时出现"
+        android:textColor="#696969"
+        android:textSize="16dp" />
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/textinfo"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回复"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/replynum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="34"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

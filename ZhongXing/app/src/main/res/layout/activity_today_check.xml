@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lightgo.schooldaily.AdminUser.TodayCheckActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/TDCTitle"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="今日考勤"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"></TextView>
+        <LinearLayout
+            android:layout_below="@+id/TDCTitle"
+            android:id="@+id/TDCBotton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+                android:id="@+id/bt_zzx"
+                android:layout_weight="1"
+                android:text="早自习"
+                android:textColor="@color/blue"
+                android:background="@drawable/buttonstyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/bt_wzx"
+                android:layout_weight="1"
+                android:text="晚自习"
+                android:background="#F8F8FF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/bt_wg"
+                android:layout_weight="1"
+                android:text="晚归"
+                android:background="#F8F8FF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <ListView
+            android:layout_below="@+id/TDCBotton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mToDayCheck_ListView"></ListView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lightgo.schooldaily.AdminUser.ClassRankActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/CRTitle"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="班级排名"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"></TextView>
+        <ListView
+            android:layout_below="@+id/CRTitle"
+            android:id="@+id/mClassRank_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
